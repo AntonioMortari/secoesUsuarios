@@ -1,11 +1,13 @@
-import { Container } from "./layouts/Container";
+import { BrowserRouter } from "react-router-dom";
+import { Root } from "./routes";
 
 
 const App = () => {
+
     return(
-        <Container>
-            <h1>Seção Usuários</h1>
-        </Container>
+        <BrowserRouter>
+            <Root />
+        </BrowserRouter>
     );
 }
 
